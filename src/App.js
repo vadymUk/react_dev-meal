@@ -8,10 +8,7 @@ import { Recipe } from "./pages/Recipe";
 function App() {
     return (
         <>
-            <Router
-                basename='/
-react_dev-meal'
-            >
+            <Router>
                 <Header />
                 <Routes>
                     <Route
